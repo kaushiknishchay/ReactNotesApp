@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.headerCenter {
+	font-size: 25px;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.inputCover {
+	box-shadow: 4px 5px 5px #eee, -4px 0px 5px #eee;
+	padding: 30px 0px;
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+.panelList {
+	max-width: 90%;
+	margin: 0 5%;
+}
+
+.panelList > .mui-panel {
+	margin-bottom: 0 !important;
+}
+
+.noteItem {
+	font-size: 17px;
+	padding: 18px;
+}
+.delBtn{
+	border: none;
+	float: right;
+	padding: 6px;
+	background: transparent;
+}
+.delIcon{
+	width: 20px;
+	height: 20px;
+	float: right;
+}
+.delBtn:hover{
+	border-radius: 50%;
+	box-shadow: 2px 2px 5px #eee, -2px -2px 5px #eee;
+}
